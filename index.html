@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>无尽像素服务器Bug追踪器</title>
+</head>
+<body>
+    <nav>
+        <h3>EndlessPixel Bug Tracker</h3>
+    </nav>
+
+    <div class="container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="filter-title">
+                    <h4>漏洞列表</h4>
+                </div>
+            </div>
+
+            <div id="bugSidebarList" class="sidebar-list"></div>
+            <div id="paginator" class="paginator"></div>
+        </aside>
+
+        <main class="content">
+            <div id="bugDetailView" class="detail-view">
+                <div class="placeholder">请选择一个Bug查看详情</div>
+            </div>
+        </main>
+    </div>
+
+    <script src="bugs.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
